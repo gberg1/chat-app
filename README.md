@@ -1,4 +1,4 @@
-React Boilerplate with Webpack and Babel
+Chat App Using React and Flux
 
 ##Steps:
  - `npm install`
