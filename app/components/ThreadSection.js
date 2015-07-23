@@ -1,6 +1,6 @@
 var React = require('react');
 var MessageStore = require('../stores/MessageStore');
-var ThreadListItem = require('../components/ThreadListItem.react');
+var ThreadListItem = require('../components/ThreadListItem');
 var ThreadStore = require('../stores/ThreadStore');
 var UnreadThreadStore = require('../stores/UnreadThreadStore');
 
@@ -46,7 +46,7 @@ var ThreadSection = React.createClass({
           {unread}
         </div>
         <ul className="thread-list">
-          {ThreadListItems}
+          {threadListItems}
         </ul>
       </div>
     );

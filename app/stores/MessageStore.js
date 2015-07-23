@@ -15,7 +15,7 @@ function _addMessages(rawMessages) {
     if (!_messages[message.id]) {
       _messages[message.id] = ChatMessageUtils.convertRawMessage(
         message,
-        ThreadStore.getCurrentID();
+        ThreadStore.getCurrentID()
       );
     }
   });

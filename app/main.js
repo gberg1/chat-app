@@ -13,6 +13,6 @@ ChatWebAPIUtils.getAllMessages();
 
 React.render(
   <ChatApp />,
-  document.getElementById('react');
+  document.getElementById('react')
 );
 

@@ -37,7 +37,7 @@ var MessageSection = React.createClass({
   },
 
   render: function() {
-    var MessageListItems = this.state.messages.map(getMessageListItem);
+    var messageListItems = this.state.messages.map(getMessageListItem);
     return (
       <div className="message-section">
         <h3 className="message-thread-heading">{this.state.thread.name}</h3>
